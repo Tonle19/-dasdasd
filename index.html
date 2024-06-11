@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="i.css" />
+  </head>
+  <body>
+    <form class="daddy">
+      <div>
+        <span class="baby">Add Eployee</span>
+      </div>
+      <div>
+        <input
+          type="text"
+          ,
+          placeholder="Employee Code"
+          ,
+          name="name"
+          ,id="employee_code"
+        />
+      </div>
+      <div>
+        <input
+          type="text"
+          ,
+          placeholder="Employee Name"
+          ,
+          name="name"
+          ,id="employee_name"
+        />
+      </div>
+      <div>
+        <input type="text" , placeholder="Email" , name="name" ,id="email" />
+      </div>
+      <div>
+        <input type="button" value="Add Employee" onclick="validate()" />
+      </div>
+    </form>
+    <table class="myTable">
+      <thead>
+        <tr>
+          <th>Stt</th>
+          <th>Employee Code</th>
+          <th>Employee name</th>
+          <th>Email</th>
+          <th>Tính Năng</th>
+        </tr>
+      </thead>
+      <tbody id="table"></tbody>
+    </table>
+  </body>
+</html>
